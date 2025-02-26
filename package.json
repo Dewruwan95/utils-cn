@@ -1,6 +1,6 @@
 {
   "name": "utils-cn",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A utility function to conditionally join and merge Tailwind CSS classes efficiently.",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
