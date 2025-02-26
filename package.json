@@ -1,0 +1,40 @@
+{
+  "name": "utils-cn",
+  "version": "1.0.0",
+  "description": "A utility function to conditionally join and merge Tailwind CSS classes efficiently.",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    "import": "./dist/index.mjs",
+    "require": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsup src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dewruwan95/utils-cn.git"
+  },
+  "keywords": [
+    "tailwind",
+    "clsx",
+    "twMerge",
+    "classnames",
+    "utility"
+  ],
+  "author": "Idea Graphix",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dewruwan95/utils-cn/issues"
+  },
+  "homepage": "https://github.com/Dewruwan95/utils-cn#readme",
+  "devDependencies": {
+    "tsup": "^8.4.0",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^3.0.2"
+  }
+}
